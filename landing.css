@@ -1,0 +1,158 @@
+.right-nav {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-items: center;
+}
+
+.link-item {
+    text-decoration: none;
+    border: 0% solid black;
+    color: #B7C6C9;
+}
+
+.middle-nav {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-items: center;
+}
+
+.middle-nav1 {
+    padding-right: 1.5em;
+}
+
+.middle-nav2 {
+    border: 3px solid #B7C6C9;
+    padding: .5em 1em;
+    border-radius: 40%;
+}
+
+.middle-nav2:hover {
+    background-color: #B7C6C9;
+    color: white;
+    font-weight: 600;
+}
+
+.left-nav {
+    font-family: 'Clarendon BT';
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-items: center;
+}
+
+.nav-item {
+    background-color: #876E54;
+    text-decoration: none;
+    padding: 0% 6%;
+}
+
+.nav-soul {
+    font-weight: 800;
+    color: #B7C6C9;
+}
+
+header {
+    background-color: #876E54;
+}
+
+.link-item:hover {
+    color: black;
+    font-weight: 550;
+}
+
+.link-item:active {
+    font-size: 102%;
+    color: rgb(36, 163, 163);
+}
+
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 10% 15%;
+    background-color: #BEAD9E
+    ;
+    align-items: center;
+    padding: 20% 5%;
+    flex-wrap: wrp;
+    font-family: andrfont;
+    box-shadow: 5px 5px 20px black;
+    border-radius: 20px;
+}
+body {
+
+}
+.left-container {
+    display: flex;
+    flex-direction: column;
+    margin: 5% 5%;
+}
+.right-container {
+    display: flex;
+    margin: 2% 5%;
+    outline: none;
+}
+form {
+    
+}
+.form1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 9% 4%;
+    align-items: center;
+}
+.name-form {
+    display: flex;
+    flex-direction: column;
+    margin: 2% 5%;
+}
+.email-form {
+    display: flex;
+    flex-direction: column;
+    margin: 2% 5%;
+}
+.form2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 9% 4%;
+    align-items: center; 
+}
+.password-form {
+    display: flex;
+    flex-direction: column;
+    margin: 2% 5%;
+}
+.tel-form {
+    display: flex;
+    flex-direction: column;
+    margin: 2% 5%;
+}
+.form3 {
+    display: flex;
+    justify-content: center;
+    margin: 0% 20%;
+}
+input[type="submit"] {
+    padding: 4% 7%;
+    border: 0px solid;
+    background-color: #876E54;
+    color: white;
+    font-weight: 750;
+    border-radius: 40px;
+    margin-left: 50%;
+}
+input[type="submit"]:hover {
+    background-color: rgb(135, 110, 84, 0.8);
+}
+body {
+    background-image: url(federica-campanaro-NBJ0BBqvdNM-unsplash.jpg);
+    background-size: cover;
+}
